@@ -26,7 +26,7 @@ public class HealthCheck implements HealthCheckHandler {
 
     @Override
     public int getStatus() {
-        logger.info("Health check called.");
+        logger.info("Health check called....");
         return 200;
     }
 
